@@ -1,0 +1,335 @@
+{
+    "type": "SSS",
+    "stage_name": "阿卡胡拉丛林",
+    "minimum_required": "v4.9.0",
+    "doc": {
+        "title": "保全阿卡胡拉丛林-泥岩塞雷娅铃兰澄闪",
+        "title_color": "dark",
+        "details": "攻略视频：BV1BX4y1z7S5，摘抄：cznull，有些许修改",
+        "details_color": "dark"
+    },
+    "buff": "能量扰动放大器",
+    "equipment": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "strategy": "优选策略",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "tool_men": {
+        "先锋": 3,
+        "近卫": 1,
+        "重装": 1,
+        "医疗": 1,
+        "狙击": 5,
+        "术士": 1,
+        "辅助": 4
+    },
+    "drops": [
+        "无需增调干员",
+        "辅助",
+        "先锋",
+        "重装",
+        "异态激化插件",
+        "医疗",
+        "近卫"
+    ],
+    "blacklist": [
+    ],
+    "stages": [
+        {
+            "stage_name": "知难而进",
+            "strategies": [
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 3
+                    },
+                    "location": [
+                        7,2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "泥岩",
+                    "tool_men": {
+                        "先锋": 1
+                    },
+                    "location": [
+                        7,3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "辅助": 100
+                    },
+                    "location": [
+                        7,
+                        1
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "荒地的手段",
+            "strategies": [
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "先锋": 1
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 4
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "泥岩",
+                    "tool_men": {
+                        "重装": 1
+                    },
+                    "location": [
+                        4,4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "先锋": 100
+                    },
+                    "location": [
+                        5,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "辅助": 100
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "麻木前行",
+            "strategies": [
+                {
+                    "core": "泥岩",
+                    "tool_men": {
+                        "重装": 1,
+                        "近卫": 1
+                    },
+                    "location": [
+                        6,2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 3,
+                        "先锋": 1
+                    },
+                    "location": [
+                        7,2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 1,
+                        "先锋": 1
+                    },
+                    "location": [
+                        8,2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "辅助": 100
+                    },
+                    "location": [
+                        8,1
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "混乱“派对”",
+            "strategies": [
+                {
+                    "core": "泥岩",
+                    "tool_men": {
+                        "重装": 1
+                    },
+                    "location": [
+                        4,2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 3,
+                        "先锋": 1
+                    },
+                    "location": [
+                        3,2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                    },
+                    "location": [
+                        4,3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 1,
+                        "近卫": 1,
+                        "先锋": 1
+                    },
+                    "location": [
+                        3,3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "医疗": 100
+                    },
+                    "location": [
+                        2,2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "辅助": 100
+                    },
+                    "location": [
+                        2,3
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        5,
+                        1
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        }
+    ]
+}
