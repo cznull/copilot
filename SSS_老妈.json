@@ -1,11 +1,11 @@
 {
     "type": "SSS",
-    "stage_name": "阿卡胡拉丛林",
+    "stage_name": "约翰老妈新建地块",
     "minimum_required": "v4.9.0",
     "doc": {
-        "title": "保全阿卡胡拉丛林-泥岩塞雷娅铃兰澄闪",
+        "title": "约翰老妈新建地块-泥岩塞雷娅铃兰澄闪",
         "title_color": "dark",
-        "details": "攻略视频：BV1BX4y1z7S5，摘抄：cznull，有些许修改",
+        "details": "攻略视频：BV1BX4y1z7S5，抄写：cznull，有些许修改",
         "details_color": "dark"
     },
     "buff": "能量扰动放大器",
@@ -193,8 +193,9 @@
                 {
                     "core": "泥岩",
                     "tool_men": {
-                        "重装": 1,
-                        "近卫": 1
+                        "重装": 2,
+                        "近卫": 1,
+                        "先锋": 1
                     },
                     "location": [
                         6,2
@@ -215,8 +216,9 @@
                 {
                     "core": "澄闪",
                     "tool_men": {
-                        "狙击": 1,
-                        "先锋": 1
+                        "狙击": 2,
+                        "先锋": 1,
+                        "术士": 1
                     },
                     "location": [
                         8,2
@@ -256,7 +258,8 @@
                 {
                     "core": "泥岩",
                     "tool_men": {
-                        "重装": 1
+                        "重装": 1,
+                        "先锋": 1
                     },
                     "location": [
                         4,2
@@ -325,6 +328,179 @@
                     "location": [
                         5,
                         1
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "消息传递",
+            "strategies": [
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                    },
+                    "location": [
+                        6,3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "泥岩",
+                    "tool_men": {
+                        "先锋": 2,
+                        "重装": 1
+                    },
+                    "location": [
+                        5,3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 3
+                    },
+                    "location": [
+                        4,4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 2,
+                        "近卫": 1,
+                        "先锋": 1
+                    },
+                    "location": [
+                        7,3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "医疗": 100
+                    },
+                    "location": [
+                        7,4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "辅助": 100
+                    },
+                    "location": [
+                        8,3
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "力量的炫耀",
+            "strategies": [
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "重装": 1
+                    },
+                    "location": [
+                        3,5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 2,
+                        "先锋": 1
+                    },
+                    "location": [
+                        4,4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 3,
+                        "近卫": 1,
+                        "先锋": 1
+                    },
+                    "location": [
+                        1,5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "泥岩",
+                    "tool_men": {
+                        "重装": 1,
+                        "先锋": 1
+                    },
+                    "location": [
+                        1,4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "医疗": 100
+                    },
+                    "location": [
+                        1,6
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "辅助": 50,
+                        "先锋": 50
+                    },
+                    "location": [
+                        5,3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "近卫": 100
+                    },
+                    "location": [
+                        3,6
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        3,3
                     ],
                     "direction": "None"
                 }
